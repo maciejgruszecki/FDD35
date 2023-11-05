@@ -1,13 +1,8 @@
 #### PLD equations
 ```
 Name     FDD35;
-PartNo   00;
 Date     2015-12-19;
 Revision 01;
-Designer Engineer;
-Company  none;
-Assembly None;
-Location none;
 Device   g22v10;
 
 /* *************** INPUT PINS *********************/
@@ -66,5 +61,6 @@ RAMCS0  = FMREQ & (((!BOOT # A14 # A13) & RD) # WR) & !A15;
 
 /* *** RAMCS1 *** */
 RAMCS1  = FMREQ & (RD # WR) & A15;
-```
+
 /* end */
+```
